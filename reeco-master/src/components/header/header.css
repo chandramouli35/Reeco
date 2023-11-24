@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, 0.25);
+}
+
+.order-nav {
+  padding-left: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+p {
+  display: inline-block;
+}
+
+.order {
+  text-decoration: underline;
+}
+
+.order-detail {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.order-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta {
+  width: 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back {
+  height: 1.8rem;
+  border-radius: 20px;
+  font-weight: 800;
+  width: 4rem;
+  color: rgb(39, 80, 60);
+  background-color: white;
+  border-color: rgb(39, 80, 60);
+}
+
+.approve-order {
+  height: 1.8rem;
+  border-radius: 20px;
+  font-weight: 800;
+  color: white;
+  width: 8rem;
+  background-color: rgb(39, 80, 60);
+}

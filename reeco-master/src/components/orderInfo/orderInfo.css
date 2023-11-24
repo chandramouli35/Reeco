@@ -1,0 +1,51 @@
+.order-info {
+  border: 1px solid lightgray;
+  height: 8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 6rem;
+  width: calc(100% - 2rem);
+  display: flex;
+}
+
+.item {
+  width: calc((100% - 2rem) / 6);
+  border-right: 1px solid lightgray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.last {
+  border: none;
+}
+
+.heading {
+  margin-top: 0.3rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 0.3rem;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  color: gray;
+  width: 2.2rem;
+}

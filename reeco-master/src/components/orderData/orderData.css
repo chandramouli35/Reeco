@@ -1,0 +1,217 @@
+.order-data {
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search {
+  width: 50%;
+}
+input {
+  padding-left: 1rem;
+  width: 60%;
+  height: 2rem;
+  border-radius: 20px;
+  border: 1.2px solid gray;
+}
+
+.add-item {
+  width: 5rem;
+}
+
+.add-print {
+  display: flex;
+  align-items: center;
+}
+
+.print {
+  margin-left: 2rem;
+  color: rgb(39, 80, 60);
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: 300;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.icon-cta {
+  width: 2.2rem;
+  cursor: pointer;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  height: 2rem;
+  border-radius: 20px;
+}
+
+.status-Approved {
+  background-color: rgb(83, 221, 83);
+}
+.status-Price {
+  background-color: rgb(83, 221, 83);
+}
+.status-Quantity {
+  background-color: rgb(83, 221, 83);
+}
+
+.done-Approved {
+  color: rgb(83, 221, 83);
+}
+.status-Missing {
+  background-color: orangered;
+}
+
+.close-Missing {
+  color: orangered;
+}
+.status-Missing-Urgent {
+  background-color: red;
+}
+
+.close-Missing-Urgent {
+  color: red;
+}
+
+.cross-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(204, 204, 204, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: #eeeeee;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+}
+
+.close-button {
+  float: right;
+  width: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #eeeeee;
+}
+
+.dialog-title,
+.dialog-question {
+  margin-bottom: 3rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons {
+  font-weight: 900;
+  margin-left: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.backg {
+  background-color: rgb(238, 236, 236);
+}
+
+.send-btn {
+  margin-left: 1rem;
+  height: 1.8rem;
+  border-radius: 20px;
+  font-weight: 800;
+  color: white;
+  width: 4rem;
+  background-color: rgb(39, 80, 60);
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.edit-image {
+  height: 120px;
+  width: 120px;
+}
+
+.r-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.reasons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.reasons {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  height: 2rem;
+  background-color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 20px;
+}
+
+.edit-popup-content {
+  background-color: #eeeeee;
+  padding: 1rem 1.5rem;
+  width: 35rem;
+}
+
+.edit-inputs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 18rem;
+  margin-bottom: 0.5rem;
+}
+.optional{
+  font-size: 10px;
+}

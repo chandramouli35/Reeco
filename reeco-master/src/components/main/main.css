@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  overflow-y: scroll;
+}
